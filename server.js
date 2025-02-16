@@ -20,6 +20,10 @@ app.use('/api/register/consultant', require('./routes/consultantRoutes'));
 app.use('/api/register/ib', require('./routes/ibRoutes'));
 app.use('/api', require('./routes/apiRoutes'));
 
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 
 // Error Handling Middleware
 app.use((err, req, res, next) => {
