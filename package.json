@@ -12,8 +12,23 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
+    "exceljs": "^4.4.0",
     "express": "^4.21.2",
     "mongoose": "^8.10.0",
+    "multer": "^1.4.5-lts.1",
     "nodemon": "^3.1.9"
-  }
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankit1745/wbca-backend.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Ankit1745/wbca-backend/issues"
+  },
+  "homepage": "https://github.com/Ankit1745/wbca-backend#readme"
 }
